@@ -1,0 +1,98 @@
+How to create this project !
+
+create two folders :
+-> Backend
+-> Frontend
+
+Backend :
+->  Commands :
+    npm init -y
+    npm i express
+    npm i dotenv cors
+    npm i mongoose
+    npm i bcrypt jsonwebtoken
+    npm i express-validator
+    npm i cookie-parser
+
+
+Step to create this app :
+ -> user authentication
+    create a app.js file in Backend folder :
+        - create basic app with express and cors
+    create a server.js file in Backend folder :
+        - create a server with http and app
+        - run the server on port 4000
+    create a .env file in Backend folder :
+        - create a PORT variable and set it to 4000
+    create a .env.example file in Backend folder :
+        - create a PORT variable and set it to 4000
+    create a db folder in Backend folder :
+        - create a db.js file in db folder
+        - connect to the database
+    create a models folder in Backend folder :
+        - create a user.model.js file in models folder
+        - create a user schema
+        - create a user model
+    create a controllers folder in Backend folder :
+        - create a user.controller.js file in controllers folder
+        - create a user controller
+    create a routes folder in Backend folder :
+        - create a user.routes.js file in routes folder
+        - create a user routes
+    create a services folder in Backend folder :
+        - create a user.services.js file in services folder
+        - create a user services
+    create a .env file in Backend folder :
+        - create a JWT_SECRET variable and set it to "your_secret_key"
+    create a .env file in Backend folder :
+        - create a JWT_SECRET variable and set it to "your_secret_key"
+    create a moddlewares folder in Backend folder :
+        - create a auth.middleware.js file in moddlewares folders
+        - create a authUser middleware
+    create a blacklistToken.model.js file in models folder :
+        - create a blacklistToken schema
+        - create a blacklistToken model   
+ -> basic user authentication is created 
+
+ -> create a captain authentication
+    create a captain.model.js file in models folder :
+        - create a captain schema
+        - create a captain model
+    create a captain.controller.js file in controllers folder :
+        - create a captain controller
+    create a captain.routes.js file in routes folder :
+        - create a captain routes
+    create a captain.services.js file in services folder :
+        - create a captain services
+    create a blacklistToken.model.js file in models folder :
+        - create a blacklistToken schema
+        - create a blacklistToken model
+    create a auth.middleware.js file in moddlewares folder :
+        - create a authCaptain middleware
+    create a captain.routes.js file in routes folder :
+        - create a captain routes
+    create a captain.controller.js file in controllers folder :
+        - create a captain controller
+ -> captain authentication is created
+
+Frontend :
+->  Commands :
+    npm init -y
+    npm create vite@latest
+    npm i react-router-dom
+    npm i axios
+    npm i react-icons
+    npm i react-toastify
+    npm i react-datepicker
+    npm i react-select
+
+
+create a App.jsx file in Frontend/src folder :
+    -> create Home page in pages folder
+    -> create UserLogin page in pages folder
+    -> create UserSignup page in pages folder
+    -> create CaptainLogin page in pages folder
+    -> create CaptainSignup page in pages folder
+
+
+

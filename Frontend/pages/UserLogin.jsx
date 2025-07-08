@@ -27,7 +27,7 @@ const UserLogin = () => {
         <form onSubmit={(e) => handleSubmit(e)}>
           <h3 className="text-lg font-medium mb-2">What`s your email</h3>
           <input
-            className="bg-[#eeeeee]  rounded mb-7 px-4 py-2 border w-full text-lg placeholder:text-base"
+            className="bg-[#eeeeee]  rounded mb-7 px-4 py-2 w-full text-lg placeholder:text-base"
             type="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)} // get email from input
@@ -36,7 +36,7 @@ const UserLogin = () => {
           />
           <h3 className="text-lg font-medium mb-2">Enter password</h3>
           <input
-            className="bg-[#eeeeee] rounded mb-7 px-4 py-2 border w-full text-lg placeholder:text-base"
+            className="bg-[#eeeeee] rounded mb-7 px-4 py-2  w-full text-lg placeholder:text-base"
             type="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)} // get password from input

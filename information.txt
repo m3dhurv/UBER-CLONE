@@ -94,5 +94,3 @@ create a App.jsx file in Frontend/src folder :
     -> create CaptainLogin page in pages folder
     -> create CaptainSignup page in pages folder
 
-
-

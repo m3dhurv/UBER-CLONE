@@ -1,0 +1,26 @@
+
+-> Backend
+-> Frontend
+
+Backend :
+->  Commands :
+    npm init -y
+    npm i express
+    npm i dotenv cors
+    npm i mongoose
+    npm i bcrypt jsonwebtoken
+    npm i express-validator
+    npm i cookie-parser
+    npm i nodemon
+    npm i axios
+
+Frontend :
+->  Commands :
+    npm init -y
+    npm create vite@latest
+    npm i react-router-dom
+    npm i axios
+    npm i react-icons
+    npm i react-toastify
+    npm i react-datepicker
+    npm i react-select
